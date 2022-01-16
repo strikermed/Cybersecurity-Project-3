@@ -74,7 +74,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
 
 Flag 1:
 
-![Flag_img1](Images/Flag1.png)
+![Flag_img1](Images/Flag_1.png)
 
 
 Flag 2:
