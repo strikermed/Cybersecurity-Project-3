@@ -13,7 +13,7 @@ Nmap scan results for each machine reveal the below services and OS details:
 $ nmap -sV 192.168.1.110
 ```
 
-![nmapscan_Target1_img1](../Images/Offensive_Nmap_Target1.png)
+![nmapscan_Target1_img1]()
 
 This scan identifies the services below as potential points of entry:
 - Target 1
@@ -31,8 +31,8 @@ The following vulnerabilities were identified on each target:
   - NetBIOS SMB port 445 - used in wannacry and notPetya ransomware attacks.  It is advised not to expose this to the internet like you would with a wordpress server.
 
 wpscan -o ~/Desktop/wpscan_output --url http://1292.168.1.110/wordpress
-![/Images/Flag1_WPScan_1_Target1.png](wpscan_Target1_img1)
-![/Images/Flag1_WPScan_2_Target1.png](wpscan_Target1_img2)
+![wpscan_Target1_img1](Images/Flag1_WPScan_1_Target1.png)
+![wpscan_Target1_img2](Images/Flag1_WPScan_2_Target1.png)
 
 ### Exploitation
 
