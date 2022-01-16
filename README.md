@@ -1,6 +1,9 @@
 # Cybersecurity-Project-3
 Cybersecurity Project 3
+Eric Perry
 
-[Defensive Template](./DefensiveTemplate.md)
+The following are links to the Defensive and Offensive documentation taken during this project's activities.
 
-[Offesnive Template](./OffensiveTemplate.md)
+[Defensive](./DefensiveTemplate.md)
+
+[Offesnive](./OffensiveTemplate.md)
