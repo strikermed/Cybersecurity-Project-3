@@ -34,7 +34,7 @@ wpscan -o ~/Desktop/wpscan_output --url http://1292.168.1.110/wordpress
 
 ![wpscan_Target1_img1](Images/Flag1_WPScan_1_Target1.png)
 
-![wpscan_Target1_img2](Images/Flag1_WPScan_2_Target1.png)
+![wpscan_Target1_img2](Images/flag1_WPScan_2_Target1.png)
 
 ### Exploitation
 
