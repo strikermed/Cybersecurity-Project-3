@@ -31,6 +31,8 @@ The following machines were identified on the network:
   - **Purpose**: Attacke Targetr 2/Vuln Apache server
   - **IP Address**: 192.168.1.105
 
+![Network Map](Images/NetworkMap.png)
+
 ### Description of Targets
 
 The target of this attack was: `Target 1` (192.168.1.110).
