@@ -83,7 +83,7 @@ Flag 2:
 
 Flag 3:
 
-![Flag_3_MySQL_img1](Images/Flag3.png)
+![Flag_3_MySQL_img1](Images/Flag3_MySql.png)
 
 Flag 4:
 
