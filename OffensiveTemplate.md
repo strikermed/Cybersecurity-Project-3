@@ -31,7 +31,9 @@ The following vulnerabilities were identified on each target:
   - NetBIOS SMB port 445 - used in wannacry and notPetya ransomware attacks.  It is advised not to expose this to the internet like you would with a wordpress server.
 
 wpscan -o ~/Desktop/wpscan_output --url http://1292.168.1.110/wordpress
+
 ![wpscan_Target1_img1](Images/Flag1_WPScan_1_Target1.png)
+
 ![wpscan_Target1_img2](Images/Flag1_WPScan_2_Target1.png)
 
 ### Exploitation
